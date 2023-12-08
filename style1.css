@@ -1,0 +1,183 @@
+
+body
+{
+    background-color: beige;
+}
+#nav
+{
+    margin-top: -15%;
+}
+#logo
+{
+    border-radius: 50px;
+}
+#ex
+{
+    margin-left: 780px;
+}
+#ex1
+{
+    font-style: italic;
+    font-family: Algerian;
+    color: hsl(0, 0%, 0%);
+    margin-top: 1%;
+    padding-top: 14%;
+    padding-left: 42%;
+    font-size: 300%;
+}
+.hero-img
+{
+    background-image: url(arrier.jpg) ;
+    width: 100%;
+    height: 90vh;
+    background-position: center center; 
+    background-size: cover;
+    position: relative;
+}
+/*image de l'acceuil*/
+.img 
+{
+    padding-left: 20%;
+    padding-top: 4%;
+}
+#A
+{
+    padding-left: 23%;
+    padding-top: 4%;
+    font-style: italic;
+}
+.mixt 
+{
+    background-image: url(arrier.jpg) ;
+    background-size: cover;
+}
+/*cardre menu*/
+h3
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a 
+{
+    text-decoration: none;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    margin: 50px 0;
+}
+.content
+{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25);
+    transition: .5s;
+    background: #f2f2f2 ;
+}
+#img
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.content:hover
+{
+    transform: translate(0px, -80px);
+}
+p{
+    text-align: center;
+    padding-top: 0 8px;
+}
+h6
+{
+    font-size: 26px;
+     text-align: center;
+     margin: 0;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+button
+{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+
+}
+.buy
+{
+    background: hsl(31, 84%, 50%);
+}
+@media(max-width:1000px){
+    .hero-img{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+/*footer et image promo*/
+#promo
+{
+    width: auto;
+    height: 150px;
+    margin-top: -30%;
+}
+footer
+{
+    background-color: hsl(31, 84%, 50%);
+    height: 200px;
+    width: auto;
+    margin-top: 4%;
+    align-items: center;
+}
+.icon
+{
+    margin-left: 29%;
+    margin-top: 5%;
+
+}
+#num
+{
+    float: right;
+    margin-right: 41%;
+}
+/*carousel*/
+#demo{
+    width: 80%;
+    margin: auto;
+    height: 650px!important;
+    overflow: hidden;
+    margin-top: 2%;
+  }
+  
